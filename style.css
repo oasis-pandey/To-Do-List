@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.Box {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DEF9C4;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 60px;
+    padding-bottom: 10px;
+}
+
+.TaskInput {
+    width: 25vw;
+    height: 6vh;
+    margin-left: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: #50B498;
+    font-size: large;
+}
+
+.outerBox {
+    border-radius: 50px;
+    padding: 30px;
+    background-color: #9CDBA6;
+    min-width: 50vw;
+}
+
+.upperBox {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.lowerBox {
+    max-width: 40vw;
+    margin-left: 40px;
+    min-height: 50px;
+}
+
+.lowerBox li {
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    list-style: none;
+    margin: 10px;
+}
+
+button {
+    width: 40px;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: #50B498;
+    border: none;
+    margin-left: 10px;
+}
